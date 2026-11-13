@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#07132f">
+    <meta name="description" content="Você está convidado para a festa de formatura da turma de Informática 2026.">
+    <title>Festa de Formatura | Informática 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="envelope-screen" id="envelopeScreen" aria-label="Abertura do convite">
+        <div class="envelope-intro">
+          <p class="eyebrow">Uma noite para celebrar essa conquista</p>
+          <h1>Você está<br><span>convidado</span></h1>
+          <p class="intro-copy">A turma de Informática 2026 convida você para a festa de formatura. Abra seu convite.</p>
+        </div>
+
+        <button class="envelope" id="openInvite" type="button" aria-label="Abrir convite de formatura">
+          <span class="envelope-card">
+            <span class="card-monogram">26</span>
+            <span class="card-label">Festa 2026</span>
+          </span>
+          <span class="envelope-back"></span>
+          <span class="envelope-front"></span>
+          <span class="envelope-flap"></span>
+          <span class="wax-seal" aria-hidden="true">26</span>
+        </button>
+
+        <button class="open-link" id="openInviteLink" type="button">Toque para abrir <span aria-hidden="true">↗</span></button>
+        <p class="school-line">Festa de formatura · 3º ano do Ensino Médio · Informática</p>
+      </section>
+
+      <div class="invitation-content" id="invitationContent" aria-hidden="true">
+        <header class="site-header">
+          <a class="brand" href="#inicio" aria-label="Ir ao início do convite">
+            <span class="brand-mark">26</span>
+            <span>Turma 2026<small>Informática</small></span>
+          </a>
+          <a class="header-link" href="#confirmar">Confirmar presença <span aria-hidden="true">↗</span></a>
+        </header>
+
+        <section class="hero" id="inicio" tabindex="-1">
+          <div class="hero-lights" aria-hidden="true"></div>
+          <div class="hero-content">
+            <p class="eyebrow">Festa de formatura · 3º ano · Técnico em Informática</p>
+            <h2>Uma conquista.<br><span>Vamos comemorar.</span></h2>
+            <p class="hero-copy">Depois de tantos projetos, aprendizados e boas histórias, chegou a hora de celebrar a formatura. E a festa fica completa com você.</p>
+            <a class="button button-light" href="#tecnologias">Descubra a nossa jornada <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-year" aria-hidden="true">2026</div>
+          <div class="hero-caption"><span>UMA NOITE ESPECIAL</span><span>FEITA PARA NÓS</span></div>
+        </section>
+
+        <section class="message-section section-shell" id="celebracao">
+          <div class="section-kicker"><span>01</span><span>Um convite especial</span></div>
+          <div class="message-layout">
+            <div class="message-heading">
+              <p class="eyebrow">O próximo capítulo começa aqui</p>
+              <h2>Uma etapa<br>que merece <em>ser celebrada.</em></h2>
+            </div>
+            <div class="message-copy">
+              <p>Foram aulas, projetos, descobertas e amizades que levaremos para a vida. Agora, queremos celebrar nossa formatura em uma noite preparada com muito carinho.</p>
+              <p>Sua presença vai deixar a festa ainda mais especial. Venha comemorar essa conquista conosco!</p>
+              <span class="signature">Com carinho, <strong>Formandos de Informática · 2026</strong></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="technology-section" id="tecnologias">
+          <div class="technology-inner section-shell">
+            <div class="section-kicker"><span>02</span><span>Um pouco do nosso universo</span></div>
+            <div class="technology-heading">
+              <div>
+                <p class="eyebrow">Do primeiro "olá, mundo" ao próximo grande passo</p>
+                <h2>Nosso laboratório<br>de <em>ideias.</em></h2>
+              </div>
+              <p>Entre códigos, cabos e experiências, aprendemos a imaginar, testar, errar, ajustar e fazer acontecer. Agora, o melhor projeto é comemorar juntos na festa de formatura.</p>
+            </div>
+            <div class="technology-grid">
+              <article class="technology-card">
+                <span class="technology-mark">&lt;/&gt;</span>
+                <p class="technology-label">A base da web</p>
+                <h3>HTML</h3>
+                <p>A estrutura das ideias. E deste convite, claro.</p>
+              </article>
+              <article class="technology-card">
+                <span class="technology-mark">#</span>
+                <p class="technology-label">Estilo com propósito</p>
+                <h3>CSS</h3>
+                <p>Onde cada projeto encontrou o seu próprio estilo.</p>
+              </article>
+              <article class="technology-card technology-card-featured">
+                <span class="technology-mark">{ }</span>
+                <p class="technology-label">Interação e movimento</p>
+                <h3>Javascript</h3>
+                <p>O toque que fez as páginas saírem do estático.</p>
+              </article>
+              <article class="technology-card">
+                <span class="technology-mark" aria-hidden="true">
+                  <svg class="coffee-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 9h11v7a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V9Z" />
+                    <path d="M16 11h2a2.5 2.5 0 0 1 0 5h-2M4 22h13M8 3c-1.4 1.1.4 1.8-.6 3M13 3c-1.4 1.1.4 1.8-.6 3" />
+                  </svg>
+                </span>
+                <p class="technology-label">Lógica em ação</p>
+                <h3>Java</h3>
+                <p>Persistência, projetos e muitos pontos e vírgulas.</p>
+              </article>
+              <article class="technology-card">
+                <span class="technology-mark">DB</span>
+                <p class="technology-label">Tudo no seu lugar</p>
+                <h3>Banco de dados</h3>
+                <p>Memórias guardadas além da última aula.</p>
+              </article>
+              <article class="technology-card">
+                <span class="technology-mark">RBT</span>
+                <p class="technology-label">Ideias em movimento</p>
+                <h3>Robótica</h3>
+                <p>Quando o código saiu da tela e ganhou vida.</p>
+              </article>
+              <article class="technology-card">
+                <span class="technology-mark">↔</span>
+                <p class="technology-label">Tudo conectado</p>
+                <h3>Redes de computadores</h3>
+                <p>Conectando máquinas, projetos e pessoas.</p>
+              </article>
+            </div>
+            <p class="technology-signoff">A melhor conexão desta festa? <strong>Estarmos juntos.</strong></p>
+          </div>
+        </section>
+
+        <section class="details-section" id="detalhes">
+          <div class="details-inner section-shell">
+            <div class="section-kicker"><span>03</span><span>Anote na agenda</span></div>
+            <div class="details-title">
+              <p class="eyebrow">Esperamos por você</p>
+              <h2>A festa da<br><em>nossa formatura.</em></h2>
+            </div>
+            <div class="detail-cards">
+              <article class="detail-card">
+                <span class="detail-number">01</span>
+                <p class="detail-label">Data da festa</p>
+                <h3><time datetime="2026-12-23">23/12/2026</time></h3>
+                <p>Quarta-feira, 23 de dezembro.</p>
+              </article>
+              <article class="detail-card">
+                <span class="detail-number">02</span>
+                <p class="detail-label">Horário</p>
+                <h3>A partir das <time datetime="22:00">22:00</time></h3>
+                <p>Esperamos você para comemorar essa conquista com a turma.</p>
+              </article>
+              <article class="detail-card">
+                <span class="detail-number">03</span>
+                <p class="detail-label">Local</p>
+                <h3>Sítio Luz do Sol</h3>
+                <p>O ponto de encontro para a nossa festa de formatura.</p>
+              </article>
+            </div>
+            <p class="details-note">Prepare-se para uma noite especial. Esperamos por você!</p>
+          </div>
+        </section>
+
+        <section class="rsvp-section section-shell" id="confirmar">
+          <div class="section-kicker"><span>04</span><span>Conte com a sua presença?</span></div>
+          <div class="rsvp-layout">
+            <div class="rsvp-heading">
+              <p class="eyebrow">Confirmação de presença</p>
+              <h2>Venha celebrar<br>nossa <em>formatura.</em></h2>
+              <p>Confirme sua presença na festa. Sua resposta ajuda a turma a preparar uma comemoração especial.</p>
+            </div>
+            <form class="rsvp-form" id="rsvpForm">
+              <label for="guestName">Seu nome</label>
+              <input id="guestName" name="name" type="text" placeholder="Como podemos chamar você?" autocomplete="name" required maxlength="100">
+
+              <p class="contact-hint" id="contactHint">Informe pelo menos um contato: e-mail ou telefone.</p>
+
+              <label for="guestEmail">E-mail <span>(opcional)</span></label>
+              <input id="guestEmail" name="email" type="email" placeholder="voce@exemplo.com" autocomplete="email" maxlength="150" aria-describedby="contactHint">
+
+              <label for="guestPhone">Telefone</label>
+              <input id="guestPhone" name="phone" type="tel" placeholder="(00) 00000-0000" autocomplete="tel" inputmode="tel" maxlength="25" aria-describedby="contactHint">
+
+              <label for="attendance">Você poderá participar?</label>
+              <select id="attendance" name="attendance" required>
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="Sim">Sim, estarei lá!</option>
+                <option value="Não">Infelizmente, não poderei ir</option>
+              </select>
+
+              <div class="guest-count-field" id="guestCountField">
+                <label for="guestCount">Pessoas no seu grupo <span>(incluindo você)</span></label>
+                <select id="guestCount" name="guestCount" required>
+                  <option value="1">Somente eu</option>
+                  <option value="2">2 pessoas</option>
+                  <option value="3">3 pessoas</option>
+                  <option value="4">4 pessoas</option>
+                  <option value="5">5 pessoas</option>
+                </select>
+              </div>
+
+              <button class="button button-dark" type="submit">Enviar confirmação <span aria-hidden="true">↗</span></button>
+              <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <a class="brand footer-brand" href="#inicio">
+            <span class="brand-mark">26</span>
+            <span>Turma 2026<small>Informática</small></span>
+          </a>
+          <p>Uma conquista dessas merece uma festa à altura.</p>
+          <span class="footer-year">© 2026</span>
+        </footer>
+      </div>
+    </main>
+    <script src="config.js"></script>
+    <script src="app.js?v=contact-fields"></script>
+  </body>
+</html>
